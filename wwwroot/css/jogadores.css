@@ -242,6 +242,11 @@ main .cadastro-equipes table td img.yellow-trash {
     width: 15px;
 }
 
+main .cadastro-equipes table td img.pencil-edit {
+    width: 15px;
+    height: 20px;
+}
+
 
 
 
