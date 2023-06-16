@@ -5,13 +5,12 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - Gamer_BancoDeDados</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/Gamer_BancoDeDados.styles.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/style.css">
+    <link rel="stylesheet" href="~/css/Header-Footer.css">
 </head>
 
 <body>
+    <!-- HEADER -->
     <header class="header">
         <div class="header-top">
             <div class="container-grid header-top-flex">
@@ -49,7 +48,8 @@
                 <input type="checkbox" id="mostra-esconde-navmenu">
                 <div class="nav-bkg">
                     <nav>
-                        <a asp-controller="Home" asp-action="Index">Inicio</a>
+                        <a href="#"></a>
+                        <a asp-controller="Home" asp-action="Index">Início</a>
                         <a href="~/#noticias">Notícias</a>
                         @if (ViewBag.UserName != null)
                         {
@@ -57,7 +57,7 @@
                             <a asp-controller="Jogador" asp-action="Index">Jogadores</a>
                             <a asp-controller="Login" asp-action="Logout">Logout</a>
                         }
-
+                       
 
                         <a class="phone-box">
                             <img src="~/assets/phone-icon.png" alt="phone icon" title="Ícone Telefone">
@@ -84,11 +84,9 @@
                 <input type="checkbox" id="mostra-esconde-icones">
                 <div class="icons-header-bkg">
                     <div class="icons-header">
-
                         <a class="nav-link text-dark" asp-controller="Login" asp-action="Index">
                             <img src="~/assets/user-icon.svg" alt="user-login">
                         </a>
-
                         <img src="~/assets/market-icon.png" alt="market icon">
                         <img src="~/assets/search-icon.png" alt="search icon">
                     </div>

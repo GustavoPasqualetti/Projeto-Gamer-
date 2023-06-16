@@ -20,7 +20,7 @@ namespace Gamer_BancoDeDados.Controllers
         [Route("Listar")]
         public IActionResult Index()
         {
-            ViewBag.Username = HttpContext.Session.GetString("UserName");
+            ViewBag.UserName = HttpContext.Session.GetString("UserName");
             ViewBag.Jogador = c.Jogador.ToList();
             ViewBag.Equipe = c.Equipe.ToList();
 
@@ -68,7 +68,8 @@ namespace Gamer_BancoDeDados.Controllers
         [Route("Editar/{id}")]
         public IActionResult Editar(int id)
         {
-            ViewBag.Username = HttpContext.Session.GetString("UserName");
+            ViewBag.UserName = HttpContext.Session.GetString("UserName");
+
             Jogador jogador = c.Jogador.First(x => x.IdJogador == id);
 
             ViewBag.Jogador = jogador;

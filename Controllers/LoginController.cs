@@ -1,16 +1,11 @@
-using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
-using Gamer_BancoDeDados;
 using Gamer_BancoDeDados.Infra;
 using Gamer_BancoDeDados.Models;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
 
 namespace ProjetoGamer.Controllers
 {
+
+
     [Route("[controller]")]
     public class LoginController : Controller
     {
@@ -21,10 +16,10 @@ namespace ProjetoGamer.Controllers
             _logger = logger;
         }
 
-        Context c = new Context();
-
         [TempData]
         public string? Message { get; set; }
+
+        Context c = new Context();
 
         [Route("Login")]
         public IActionResult Index()
@@ -39,14 +34,14 @@ namespace ProjetoGamer.Controllers
             string email = form["Email"].ToString();
             string senha = form["Senha"].ToString();
 
-            Jogador jogadorBuscado = c.Jogador.First(j => j.Email == email && j.Senha == senha);
+            Jogador jogadorBuscado = c.Jogador.FirstOrDefault(j => j.Email == email && j.Senha == senha)!;
 
             if (jogadorBuscado != null)
             {
                 HttpContext.Session.SetString("UserName", jogadorBuscado.Nome);
                 return LocalRedirect("~/");
             }
-            Message = "Dados Invalidos";
+            Message = "Dados inválidos!";
             return LocalRedirect("~/Login/Login");
         }
 
@@ -63,5 +58,7 @@ namespace ProjetoGamer.Controllers
             return View("Error!");
         }
 
+
     }
+
 }

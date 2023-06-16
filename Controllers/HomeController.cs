@@ -1,4 +1,4 @@
-﻿using System.Diagnostics;
+﻿﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using Gamer_BancoDeDados.Models;
 
@@ -6,16 +6,16 @@ namespace Gamer_BancoDeDados.Controllers;
 
 public class HomeController : Controller
 {
-    private readonly ILogger<HomeController> _logger;
+     private readonly ILogger<HomeController> _logger;
 
     public HomeController(ILogger<HomeController> logger)
     {
         _logger = logger;
     }
-
+    
     public IActionResult Index()
     {
-        ViewBag.Username = HttpContext.Session.GetString("UserName");
+        ViewBag.UserName = HttpContext.Session.GetString("UserName");
         return View();
     }
 

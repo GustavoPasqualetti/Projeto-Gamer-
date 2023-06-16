@@ -1137,9 +1137,7 @@ C:\Users\49802004863\Desktop\Projeto-Gamer-\obj\Debug\net7.0\staticwebassets\msb
 C:\Users\49802004863\Desktop\Projeto-Gamer-\obj\Debug\net7.0\staticwebassets.pack.json
 C:\Users\49802004863\Desktop\Projeto-Gamer-\obj\Debug\net7.0\staticwebassets.build.json
 C:\Users\49802004863\Desktop\Projeto-Gamer-\obj\Debug\net7.0\staticwebassets.development.json
-C:\Users\49802004863\Desktop\Projeto-Gamer-\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\49802004863\Desktop\Projeto-Gamer-\obj\Debug\net7.0\scopedcss\bundle\Gamer_BancoDeDados.styles.css
-C:\Users\49802004863\Desktop\Projeto-Gamer-\obj\Debug\net7.0\scopedcss\projectbundle\Gamer_BancoDeDados.bundle.scp.css
 C:\Users\49802004863\Desktop\Projeto-Gamer-\obj\Debug\net7.0\Gamer_BancoDeDados.csproj.CopyComplete
 C:\Users\49802004863\Desktop\Projeto-Gamer-\obj\Debug\net7.0\Gamer_BancoDeDados.dll
 C:\Users\49802004863\Desktop\Projeto-Gamer-\obj\Debug\net7.0\refint\Gamer_BancoDeDados.dll

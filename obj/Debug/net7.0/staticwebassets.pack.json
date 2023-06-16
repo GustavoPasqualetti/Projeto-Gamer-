@@ -1,16 +1,16 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\49802004863\\Desktop\\Projeto-Gamer-\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Gamer_BancoDeDados.bundle.scp.css",
-      "PackagePath": "staticwebassets\\Gamer_BancoDeDados.bundle.scp.css"
-    },
-    {
       "Id": "C:\\Users\\49802004863\\Desktop\\Projeto-Gamer-\\wwwroot\\assets\\Banner_Login.png",
       "PackagePath": "staticwebassets\\assets\\Banner_Login.png"
     },
     {
       "Id": "C:\\Users\\49802004863\\Desktop\\Projeto-Gamer-\\wwwroot\\assets\\Botao_voltar_ao_topo.svg",
       "PackagePath": "staticwebassets\\assets\\Botao_voltar_ao_topo.svg"
+    },
+    {
+      "Id": "C:\\Users\\49802004863\\Desktop\\Projeto-Gamer-\\wwwroot\\assets\\editar.png",
+      "PackagePath": "staticwebassets\\assets\\editar.png"
     },
     {
       "Id": "C:\\Users\\49802004863\\Desktop\\Projeto-Gamer-\\wwwroot\\assets\\envelope-icon.png",
@@ -239,6 +239,18 @@
     {
       "Id": "C:\\Users\\49802004863\\Desktop\\Projeto-Gamer-\\wwwroot\\assets\\vector-user.svg",
       "PackagePath": "staticwebassets\\assets\\vector-user.svg"
+    },
+    {
+      "Id": "C:\\Users\\49802004863\\Desktop\\Projeto-Gamer-\\wwwroot\\css\\Header-Footer.css",
+      "PackagePath": "staticwebassets\\css\\Header-Footer.css"
+    },
+    {
+      "Id": "C:\\Users\\49802004863\\Desktop\\Projeto-Gamer-\\wwwroot\\css\\equipes.css",
+      "PackagePath": "staticwebassets\\css\\equipes.css"
+    },
+    {
+      "Id": "C:\\Users\\49802004863\\Desktop\\Projeto-Gamer-\\wwwroot\\css\\jogadores.css",
+      "PackagePath": "staticwebassets\\css\\jogadores.css"
     },
     {
       "Id": "C:\\Users\\49802004863\\Desktop\\Projeto-Gamer-\\wwwroot\\css\\login.css",
